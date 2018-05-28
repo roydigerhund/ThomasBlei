@@ -181,7 +181,7 @@ p + p {
   margin-top: 16px;
 }
 
-p {
+.paragraph {
   font-size: 18px;
   line-height: 30px;
   font-weight: 300;
@@ -202,8 +202,8 @@ p {
   
 }
 
-.small p,
-p.small {
+.small .paragraph,
+.paragraph.small {
   font-size: 15px;
   line-height: 27px;
   
@@ -214,13 +214,18 @@ p.small {
   
 }
 
-.mini p,
-p.mini {
+.mini .paragraph,
+.paragraph.mini {
   font-size: 12px;
   line-height: 20px;
   font-weight: 400;
   letter-spacing: 0.015em;
 }
+
+p {
+  @extend .paragraph;
+}
+
 
 // .h3 + .textlist,
 // .h3 + .textlist,
