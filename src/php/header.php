@@ -12,10 +12,10 @@
 </head>
 
 <body>
-  
-  <div class="debugOverlay"></div>
-  
+    
   <div class="bigSubOverlay"></div>
+  
+  <div class="infotextOverlay"></div>
 
 	<div class="headerWrapper">
     

@@ -40,6 +40,17 @@ body {
   background: rgba($white, 0.8);
 }
 
+.infotextOverlay {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba($darkBlue, 0.2);
+}
+
 .headerWrapper {
   position: fixed;
   top: 0;

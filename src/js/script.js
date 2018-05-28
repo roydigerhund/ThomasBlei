@@ -227,4 +227,26 @@ jQuery(document).ready(function($) {
       $(this).find('ul').first().slideDown();
     }
   });
+  
+  $('.infoicon').on('mouseenter touchstart', function() {
+    $('body > .sectionInfotext').remove();
+    var infotext = $(this).parent().find('.sectionInfotext').clone().appendTo('body');
+    var posY = $(this).offset().top + 66;
+    var posX = $(this).offset().left - (infotext.outerWidth() / 2) + 25;
+    if (infotext.outerWidth() + posX > ($(window).width() - 40)) {
+      posX = 20;
+      infotext.css('max-width', $(window).width() - 40);
+      infotext.find('.triangle').css('left', $(this).offset().left + 5);
+    }
+    infotext.css({'top': posY, 'left': posX}).fadeIn();
+    $('.infotextOverlay').fadeIn();
+  }).on('mouseleave', function() {
+    $('body > .sectionInfotext').fadeOut();
+    $('.infotextOverlay').fadeOut();
+  });
+  $('.infotextOverlay').on('click', function(){
+    $('body > .sectionInfotext').fadeOut();
+  });
+  
+  
 });
