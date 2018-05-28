@@ -116,4 +116,14 @@
     // add_action( 'pre_get_posts', 'jb_pre_get_posts' );
   }
 
+  // echo Content helper function
+  function displayTwoColumnContent($content) {
+    preg_match('/<p>(<img.*fullBG.*src="(.*?)".*>)<\/p>/', $content, $matches);
+    if (count($matches) > 1 ) {
+      echo '<div class="fullBGWrapper" style="background-image: url(' . $matches[2] . ');">' . $matches[1] . '</div>';
+    } else {
+      echo $content;
+    }
+  }
+
 ?>

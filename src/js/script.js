@@ -120,7 +120,7 @@ jQuery(document).ready(function($) {
 
       var id = $(this).index() + 1;
 
-      changeSlide(id)
+      changeSlide(id);
 
       autoPlay();
 

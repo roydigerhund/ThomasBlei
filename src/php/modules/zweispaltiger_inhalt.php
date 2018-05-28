@@ -1,10 +1,12 @@
 <?php 
+
 $classes = "";
 if (get_sub_field('titel')) $classes .= " tt";
 if (get_sub_field('bild')) $classes .= " bg";
 if (get_sub_field('hintergrund')) $classes .= " fbg";
 if (get_sub_field('vertikal_zentrieren')) $classes .= " cvt";
- ?>
+
+?>
 
 <div class="zweispaltiger_inhalt <?php echo $classes; ?>" style="background-image: url(<?php the_sub_field('bild'); ?>); background-color: <?php the_sub_field('hintergrund'); ?>;">
   
@@ -19,19 +21,19 @@ if (get_sub_field('vertikal_zentrieren')) $classes .= " cvt";
     
     <?php if (get_sub_field('mobile_reverse')): ?>
       <div class="right">
-        <?php the_sub_field('inhalt_rechts'); ?>
+        <?php displayTwoColumnContent(get_sub_field('inhalt_rechts')); ?>
       </div>
       
       <div class="left">
-        <?php the_sub_field('inhalt_links'); ?>
+        <?php displayTwoColumnContent(get_sub_field('inhalt_links')); ?>
       </div>
     <?php else: ?>
       <div class="left">
-        <?php the_sub_field('inhalt_links'); ?>
+        <?php displayTwoColumnContent(get_sub_field('inhalt_links')); ?>
       </div>
       
       <div class="right">
-        <?php the_sub_field('inhalt_rechts'); ?>
+        <?php displayTwoColumnContent(get_sub_field('inhalt_rechts')); ?>
       </div>
     <?php endif; ?>
     
