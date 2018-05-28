@@ -39,6 +39,10 @@
   </div>
   
   <?php wp_footer(); ?>
+  
+  <style media="screen">
+    <?php the_field('custom_css'); ?>
+  </style>
 
 	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/script.js?v=<?php echo rand(0,999999); ?>" ></script>
 

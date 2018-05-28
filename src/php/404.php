@@ -1,14 +1,35 @@
 <?php get_header(); ?>
 
-	<div class="contentWrapper clearfix">
+	<div class="modulesWrapper clearfix">
 
-		<div class="headerSpace"></div>
-
-		  <div class="textblock">
-		    <h1>Die Seite existiert nicht</h1>
-
-		    <p>Hier geht es zu unserer <a href="/" title="Startseite">Startseite</a></p>
-
-		  </div>
+    <div class="header_banner noImage">
+            
+      <div class="image gross"></div>
+            
+      <div class="contentWrapper">
+        
+        <div class="content">
+          
+          <div class="overline">
+            Fehler 404
+          </div>
+          
+          <div class="headline black">
+            Die Seite wurde<br/>
+            nicht gefunden
+          </div>
+          
+          <a class="link" href="/" title="Zur Startseite">
+            Zur Startseite
+          </a>
+          
+        </div>
+        
+        <?php display_breadcrumb(); ?>
+        
+      </div>
+      
+    </div>
+      
 	</div>
 <?php get_footer(); ?>
