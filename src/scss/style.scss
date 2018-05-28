@@ -1,0 +1,51 @@
+/*!
+Theme Name: Galanet Landingpage
+Theme URL: http://galanet.org
+Description: Galanet Landingpage
+Author: Matthias Martin
+Author URL: http://www.matzemachtdesign.de/
+Version: 1.0
+*/
+
+/* COLORS
+#fff	  White
+#333	  Dark
+#6e6e6e   Grey
+#d9d9d9	  Not so Light Grey
+#ededed   Light Grey
+#00822e	  Dark Green
+#b8d79b   Middle Green
+#dde9bb
+#4da86d   Light Green
+#eaf2d8   Ligher Green
+*/
+
+/* FONTS
+300 Light
+400 Normal
+600 Medium
+700 Bold
+*/
+
+@import 'base/variables';
+@import 'base/reset';
+
+@import 'typography/typography';
+
+@import 'base/base';
+
+
+@import 'modules/header_banner';
+@import 'modules/home_intro';
+@import 'modules/teaserboxen';
+@import 'modules/home_textblock';
+@import 'modules/kundenstimmen';
+@import 'modules/ansprechpartner';
+@import 'modules/teaserbanner';
+@import 'modules/zweispaltiger_inhalt';
+@import 'modules/linkboxen';
+@import 'modules/sektionentitel';
+@import 'modules/cta';
+@import 'modules/trennlinie';
+@import 'modules/icons';
+@import 'modules/textblock_liste';
