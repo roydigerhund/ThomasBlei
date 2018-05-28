@@ -1,0 +1,181 @@
+.teaserboxen {
+  margin: 80px auto 0 auto;
+  
+  @media (max-width: 700px) {
+    margin: 60px auto 0 auto;
+  }
+  
+  &.threeColumn {
+    
+    .boxen {
+      display: flex;
+      flex-flow: row nowrap;
+      overflow-x: auto;
+      
+      @media (max-width: 1200px) {
+        overflow-x: scroll;
+      }
+      
+      .box {
+        width: 33.33%;
+        
+        @media (max-width: 1200px) {
+          flex: 0 0 auto;
+          width: 44%;
+        }
+        
+        @media (max-width: 700px) {
+          width: 65%;
+        }
+        
+        @media (max-width: 500px) {
+          width: 80%;
+        }
+        
+      }
+      
+    }
+    
+  }
+  
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: calc(100% - 160px);
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    margin-bottom: 48px;
+    
+    @media (max-width: 1024px) {
+      margin-bottom: 40px;
+    }
+    
+    @media (max-width: 700px) {
+      width: calc(100% - 40px);
+      margin-bottom: 28px;
+    }
+    
+    .headline {
+      @extend .h1;
+    }
+    
+    .subline {
+      @extend .h3;
+      
+      @media (max-width: 700px) {
+        display: none;
+      }
+      
+    }
+    
+    .link {
+      flex: 0 0 auto;
+      @extend .textlink;
+      
+      @media (max-width: 700px) {
+        display: none;
+      }
+      
+    }
+    
+  }
+  
+  .boxen {
+    @extend .clearfix;
+    
+    &:hover .box {
+      opacity: 0.2;
+    }
+    
+    .box {
+      position: relative;
+      float: left;
+      width: 50%;
+      height: 340px;
+      overflow: hidden;
+      transition: opacity 300ms ease-in-out;
+      
+      @media (max-width: 700px) {
+        width: 100%;
+        height: 250px;
+      }
+      
+      &:hover {
+        opacity: 1;
+        
+        .bg {
+          transform: scale(1.1);
+        }
+        
+      }
+      
+      .bg {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-size: cover;
+        background-position: left center;
+        transition: transform 300ms ease-in-out;
+      }
+      
+      .content {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: relative;
+        height: 100%;
+        z-index: 2;
+        padding: 42px 50px 46px 50px;
+        
+        @media (max-width: 700px) {
+          padding: 28px 20px 24px 20px;
+        }
+        
+      }
+      
+      .overline {
+        @extend .h3;
+        color: $darkBlue;
+      }
+      
+      .headline {
+        @extend .h1;
+        font-weight: 700;
+      }
+      
+      .link {
+        position: relative;
+        z-index: 10;
+        @extend .textlink;
+      }
+      
+      .fullLink {
+        position: absolute;
+        z-index: 5;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+      
+      &.white {
+        background: #333;
+        background-image: none !important;
+        
+        .headline, .overline, .link {
+          color: $white;
+        }
+        
+      }
+      
+    }
+    
+  }
+  
+}
