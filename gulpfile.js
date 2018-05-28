@@ -64,7 +64,7 @@ var PATHS = {
 var mampOptions = {
   user: 'matthiasmartin',
   port: 8888,
-  site_path: '~/Github/ThomasBlei/wordpress'
+  site_path: '/Users/matthiasmartin/Github/ThomasBlei/wordpress'
 }
 
 // Delete themeDest
