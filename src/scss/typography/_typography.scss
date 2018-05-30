@@ -11,12 +11,12 @@
   padding: 5px 6px 4px 6px;
   margin-left: -6px;
   background: $orange;
-  
+
   a {
     color: $white;
     text-decoration: none;
   }
-  
+
   &:before {
     position: absolute;
     top: 0;
@@ -30,15 +30,15 @@
     height: 100%;
     transform-origin: 0 0;
     transform: skewX(-45deg);
-    
+
     @media (max-width: 700px) {
       width: 40px;
       transform: none;
       left: -40px;
     }
-    
+
   }
-  
+
   &:after {
     position: absolute;
     top: 0;
@@ -53,7 +53,7 @@
     transform-origin: 100% 100%;
     transform: skewX(-45deg);
   }
-  
+
 }
 
 .smallTitle + .h1 {
@@ -62,11 +62,11 @@
 
 .h3 + .h1 {
   margin-top: 6px;
-  
+
   @media (max-width: 700px) {
     margin-top: 4px;
   }
-  
+
 }
 
 .h1 {
@@ -75,39 +75,39 @@
   font-weight: 400;
   letter-spacing: 0.025em;
   color: $darkBlue;
-  
+
   @media (max-width: 1024px) {
     font-size: 30px;
     line-height: 40px;
   }
-  
+
   @media (max-width: 700px) {
     font-size: 23px;
     line-height: 33px;
   }
-  
+
   &.white {
     color: $white;
   }
-  
+
   b,strong {
     font-weight: 700;
     color: $orange;
   }
-  
+
 }
 
 p + .h2 {
   margin-top: 80px;
-  
+
   @media (max-width: 1024px) {
     margin-top: 60px;
   }
-  
+
   @media (max-width: 700px) {
     margin-top: 35px;
   }
-  
+
 }
 
 .h2 {
@@ -117,21 +117,21 @@ p + .h2 {
   color: $darkBlue;
   letter-spacing: 0.01em;
   text-decoration: none;
-  
+
   @media (max-width: 1024px) {
     font-size: 18px;
     line-height: 25px;
   }
-  
+
   @media (max-width: 700px) {
     font-size: 16px;
     line-height: 23px;
   }
-  
+
   &.white {
     color: $white;
   }
-  
+
 }
 
 .h1 + .h3 {
@@ -152,29 +152,29 @@ p + .h3,
   color: $mediumBlue;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  
+
   &.white {
     color: $white;
   }
-  
+
 }
 
 .h1 + p {
   margin-top: 28px;
-  
+
   @media (max-width: 1024px) {
     margin-top: 24px;
   }
-  
+
 }
 
 .h2 + p {
   margin-top: 22px;
-  
+
   @media (max-width: 700px) {
     margin-top: 18px;
   }
-  
+
 }
 
 p + p {
@@ -186,32 +186,32 @@ p + p {
   line-height: 30px;
   font-weight: 300;
   letter-spacing: 0.005em;
-  
+
   @media (max-width: 1024px) {
     font-size: 16px;
     line-height: 27px;
   }
-  
+
   &.white {
     color: $white;
   }
-  
+
   b, strong {
     font-weight: 700;
   }
-  
+
 }
 
 .small .paragraph,
 .paragraph.small {
   font-size: 15px;
   line-height: 27px;
-  
+
   @media (max-width: 1024px) {
     font-size: 14px;
     line-height: 25px;
   }
-  
+
 }
 
 .mini .paragraph,
@@ -239,17 +239,17 @@ p {
   padding: 0;
   line-height: 178%;
   color: $darkBlue;
-  
+
   ul {
     margin: 0;
     padding: 0;
   }
-  
+
   li {
     position: relative;
     list-style: none;
     padding-left: 16px;
-    
+
     &:before {
       position: absolute;
       display: block;
@@ -257,9 +257,9 @@ p {
       left: 0;
       top: 0;
     }
-    
+
   }
-  
+
 }
 
 h1 {
@@ -282,11 +282,11 @@ blockquote p {
   font-weight: 400;
   color: $darkBlue;
   letter-spacing: 0.02em;
-  
+
   &.white {
     color: $white;
   }
-  
+
 }
 
 hr {
@@ -309,16 +309,16 @@ hr {
   background-size: 15px 14px;
   padding-left: 24px;
   transition: all 200ms ease-in-out;
-  
+
   &:hover {
     background-position: 5px center;
   }
-  
+
   &.white {
     color: $white;
     background-image: url('images/link-arrow-white.svg');
   }
-  
+
 }
 
 .buttonlink {
@@ -332,7 +332,8 @@ hr {
   color: $orange;
   text-decoration: none;
   letter-spacing: 0.05em;
-  
+  transition: all 300ms ease-in-out;
+
   &:before {
     display: inline-block;
     content: '';
@@ -344,14 +345,24 @@ hr {
     border-radius: 50%;
     background: $orange url('images/buttonlink-arrow.svg') 55% center no-repeat;
     box-shadow: 0 5px 6px 0px rgba(0,0,0,0.1);
+    transition: inherit;
   }
-  
+
+  &:hover {
+    color: $darkBlue;
+
+    &:before {
+      background-color: $darkBlue;
+      transform: translateX(3px);
+    }
+  }
+
 }
 
 .ctaLink {
   @extend .buttonlink;
   padding-left: 90px;
-  
+
   &:after {
     position: absolute;
     z-index: 1;
@@ -364,6 +375,13 @@ hr {
     height: 100px;
     border: 1px solid mix($mediumBlue, $white, 40%);
     transform: skewX(-46deg);
+    transition: inherit;
   }
-  
+
+  &:hover {
+    &:after {
+      transform: skewX(-46deg) translate(10px);
+    }
+  }
+
 }

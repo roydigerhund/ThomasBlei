@@ -1,0 +1,59 @@
+<svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 990 410">
+  <style>
+    .st4{fill:none;stroke:#818b95;stroke-linejoin:round;stroke-miterlimit:10}.st5{fill:#f5f7f8}.st7{fill:#fff}.st10,.st13{fill:none;stroke:#ff6400;stroke-linejoin:round;stroke-miterlimit:10}.st13{stroke:#818b95;stroke-width:4}
+  </style>
+  <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="198.31" y1="213" x2="198.31" y2="337.02">
+    <stop offset="0" stop-color="#e6e8ea"/>
+    <stop offset=".2" stop-color="#eff1f2"/>
+    <stop offset=".59" stop-color="#fbfbfc"/>
+    <stop offset=".99" stop-color="#fff"/>
+    <stop offset="1" stop-color="#fff"/>
+  </linearGradient>
+  <path d="M215.7 239.84a39 39 0 0 0-76.48-10.74A65.14 65.14 0 0 0 94.08 211a65.23 65.23 0 0 0-50.2 23.52A39 39 0 0 0-31 249.84C-31 271.38-23.62 409-23.62 409l439-15s12.25-138.13 12.25-159.66a39 39 0 0 0-75.3-14.26 26.49 26.49 0 0 0-52.62 4.33" fill="url(#SVGID_1_)"/>
+  <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="778.18" y1="307.41" x2="806.18" y2="397.41">
+    <stop offset="0" stop-color="#e6e8ea"/>
+    <stop offset=".2" stop-color="#eff1f2"/>
+    <stop offset=".59" stop-color="#fbfbfc"/>
+    <stop offset=".99" stop-color="#fff"/>
+    <stop offset="1" stop-color="#fff"/>
+  </linearGradient>
+  <path fill="url(#SVGID_2_)" d="M799.8 407.99l-206.35-50.33L783 301.06l206.35 41.11z"/>
+  <path fill="none" stroke="#818b95" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" d="M795.05 172.36L680.96 9.33 496.14 64.52l-114.8 101.7 13.85 3.71-.36 132.38 201.2 53.9 184.82-55.18.33-124.52z"/>
+  <path fill="#e0e5ea" d="M600.45 332.68l-156.2-41.85 143.48-42.85 156.2 41.86z"/>
+  <path class="st4" d="M600.45 332.68l-156.2-41.85 143.48-42.85 156.2 41.86z"/>
+  <path class="st5" d="M687.32 196.69l-.15 78.33-90.97 27.17-.17 54.03 184.82-55.2.36-132.37z"/>
+  <path class="st4" d="M687.32 196.69l-.15 78.33-90.97 27.17-.17 54.03 184.82-55.2.36-132.37z"/>
+  <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="623.79" y1="277.63" x2="637.12" y2="340.3">
+    <stop offset="0" stop-color="#ff6400" stop-opacity=".2"/>
+    <stop offset="1" stop-color="#ff6400" stop-opacity="0"/>
+  </linearGradient>
+  <path d="M620.43 256.6s-67.71 20.25-75.2 22.33c-5.25 1.45-6.9 2.62-.25 4.3 6.65 1.67 60.4 16.25 60.4 16.25l.37 56.84 101.03-29.25-.4-55.71-85.95-14.75z" fill="url(#SVGID_3_)"/>
+  <path class="st7" d="M710.35 223.97l-87.81-23.53-81.23 23.48.12 49.25 87.81 23.52 81.23-23.48z"/>
+  <path fill="none" stroke="#ff6400" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" d="M710.35 223.97l-87.81-23.53-81.23 23.48.12 49.25 87.81 23.52 81.23-23.48z"/>
+  <path fill="#ffbd93" d="M541.31 223.92l81.23-23.48 87.8 23.53-81.22 23.48z"/>
+  <path class="st10" d="M541.31 223.92l81.23-23.48 87.8 23.53-81.22 23.48z"/>
+  <path fill="#fde7d8" d="M710.35 223.97l.12 49.24-81.23 23.48-.12-49.24z"/>
+  <path class="st10" d="M710.35 223.97l.12 49.24-81.23 23.48-.12-49.24z"/>
+  <path class="st7" d="M629.13 247.45l.11 49.24-87.8-23.52-.13-49.25z"/>
+  <path class="st10" d="M629.13 247.45l.11 49.24-87.8-23.52-.13-49.25z"/>
+  <path class="st7" d="M496.14 275.38v-78.4l114.1 30.57-114.1-163.03-114.8 101.7 13.85 3.71-.36 132.38 201.2 53.9.17-54.02z"/>
+  <path class="st4" d="M496.14 275.38v-78.4l114.1 30.57-114.1-163.03-114.8 101.7 13.85 3.71-.36 132.38 201.2 53.9.17-54.02z"/>
+  <path class="st5" d="M496.14 64.52L680.96 9.33l114.1 163.03-184.82 55.2z"/>
+  <path class="st4" d="M496.14 64.52L680.96 9.33l114.1 163.03-184.82 55.2z"/>
+  <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="323.18" y1="367.33" x2="323.18" y2="409.38">
+    <stop offset="0" stop-color="#e6e8ea"/>
+    <stop offset=".2" stop-color="#eff1f2"/>
+    <stop offset=".59" stop-color="#fbfbfc"/>
+    <stop offset=".99" stop-color="#fff"/>
+    <stop offset="1" stop-color="#fff"/>
+  </linearGradient>
+  <path fill="url(#SVGID_4_)" d="M362.58 405.83l-112.52-39.75 11.1-2.22 135.13 41.22z"/>
+  <path class="st5" d="M256.8 295.36c-27.55 0-49.88-26.02-49.88-58.13s49.88-79.38 49.88-79.38 49.87 47.28 49.87 79.38-22.33 58.13-49.87 58.13"/>
+  <path class="st13" d="M256.8 295.36c-27.55 0-49.88-26.02-49.88-58.13s49.88-79.38 49.88-79.38 49.87 47.28 49.87 79.38-22.33 58.13-49.87 58.13z"/>
+  <path class="st7" d="M239 243.04l13.77 9.81 5.66-24.9.52 43 23.84-20.2-23.73 29.8 1.02 83.83h-8.66l1.23-101.65z"/>
+  <path class="st13" d="M239 243.04l13.77 9.81 5.66-24.9.52 43 23.84-20.2-23.73 29.8 1.02 83.83h-8.66l1.23-101.65z"/>
+  <path class="st5" d="M256.8 295.36c-27.55 0-49.88-26.02-49.88-58.13s49.88-79.38 49.88-79.38 49.87 47.28 49.87 79.38-22.33 58.13-49.87 58.13"/>
+  <path class="st4" d="M256.8 295.36c-27.55 0-49.88-26.02-49.88-58.13s49.88-79.38 49.88-79.38 49.87 47.28 49.87 79.38-22.33 58.13-49.87 58.13z"/>
+  <path class="st7" d="M235.46 238.8l18.01 14.76 4.96-29.15.52 46.54 23.84-20.2-23.73 29.8 1.02 83.83h-8.66l1.23-101.65z"/>
+  <path class="st4" d="M235.46 238.8l18.01 14.76 4.96-29.15.52 46.54 23.84-20.2-23.73 29.8 1.02 83.83h-8.66l1.23-101.65z"/>
+</svg>
