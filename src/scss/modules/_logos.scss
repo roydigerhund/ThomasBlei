@@ -1,0 +1,44 @@
+.logos {
+  position: relative;
+  padding-bottom: 90px;
+
+  @media (max-width: 850px) {
+    padding-bottom: 60px;
+  }
+
+  @media (max-width: 700px) {
+    padding-bottom: 40px;
+  }
+  
+  .wrapper {
+    @extend .clearfix;
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    z-index: 2;
+    width: calc(100% - 160px);
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    @media (max-width: 850px) {
+      display: block;
+    }
+    
+    @media (max-width: 700px) {
+      width: calc(100% - 40px);
+    }
+    
+  }
+  
+  .logo {
+    float: left;
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+  }
+
+
+}
