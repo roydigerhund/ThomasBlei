@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   width: calc(100% - 160px);
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 90px auto;
 
   @media (max-width: 850px) {
@@ -19,8 +19,12 @@
   .image {
     flex: 1 1 auto;
     position: relative;
-    height: 410px;
+    height: 500px;
     margin-right: -5.5%;
+
+    @media (max-width: 1600px) {
+      height: 410px;
+    }
 
     @media (max-width: 1350px) {
       height: 350px;
@@ -95,7 +99,7 @@
   }
 
   .text {
-    @extend .h1;
+    @extend .h2;
     position: relative;
     z-index: 2;
     flex: 0 0 auto;

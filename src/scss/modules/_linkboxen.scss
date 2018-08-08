@@ -1,20 +1,20 @@
 .linkboxen {
   width: calc(100% - 160px);
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 90px auto;
-  
+
   @media (max-width: 700px) {
     width: calc(100% - 40px);
     margin: 60px auto;
   }
-  
+
   .boxen {
     display: flex;
-    
+
     @media (max-width: 900px) {
       display: block;
     }
-    
+
     .box {
       flex: 1 1 0;
       display: block;
@@ -26,7 +26,7 @@
       text-decoration: none;
       box-shadow: 0 -1px 1px 0 rgba(0,0,0,0.05), 0 4px 6px 1px rgba(0,0,0,0.1), 2px 7px 12px 2px rgba(0,0,0,0);
       transition: box-shadow 200ms linear;
-      
+
       @media (max-width: 900px) {
         display: flex;
         justify-content: flex-start;
@@ -34,33 +34,33 @@
         margin-right: 0;
         margin-bottom: 15px;
       }
-      
+
       &:last-child {
-        margin: 0;              
+        margin: 0;
       }
-    
+
       &:hover {
         box-shadow: 0 -1px 1px 0 rgba(0,0,0,0.05), 0 4px 6px 1px rgba(0,0,0,0), 2px 7px 12px 2px rgba(0,0,0,0.15);
       }
-      
+
       img {
         display: block;
         margin: 0 auto 20px auto;
-        
+
         @media (max-width: 900px) {
           margin: 0 30px 0 0;
           height: 40px;
           width: auto;
         }
-        
+
       }
-      
+
       span {
-        @extend .h2;
+        @extend .h3;
       }
-      
+
     }
-    
+
   }
-  
+
 }

@@ -1,3 +1,8 @@
+a {
+  color: $orange;
+  text-decoration: none;
+}
+
 .smallTitle {
   position: relative;
   z-index: 5;
@@ -56,11 +61,11 @@
 
 }
 
-.smallTitle + .h1 {
+.smallTitle + .h2 {
   margin-top: 9px;
 }
 
-.h3 + .h1 {
+.h4 + .h2 {
   margin-top: 6px;
 
   @media (max-width: 700px) {
@@ -69,9 +74,9 @@
 
 }
 
-.h1 {
-  font-size: 35px;
-  line-height: 45px;
+.h2 {
+  font-size: 33px;
+  line-height: 43px;
   font-weight: 400;
   letter-spacing: 0.025em;
   color: $darkBlue;
@@ -97,7 +102,7 @@
 
 }
 
-p + .h2 {
+p + .h3 {
   margin-top: 80px;
 
   @media (max-width: 1024px) {
@@ -110,7 +115,7 @@ p + .h2 {
 
 }
 
-.h2 {
+.h3 {
   font-size: 20px;
   line-height: 27px;
   font-weight: 500;
@@ -134,17 +139,17 @@ p + .h2 {
 
 }
 
-.h1 + .h3 {
+.h2 + .h4 {
   margin-top: 4px;
 }
 
-.h2 + .h3,
-p + .h3,
-.textlist + .h3 {
+.h3 + .h4,
+p + .h4,
+.textlist + .h4 {
   margin-top: 30px;
 }
 
-.h3 {
+.h4 {
   font-family: $fontSecondary;
   font-size: 12px;
   line-height: 18px;
@@ -159,7 +164,7 @@ p + .h3,
 
 }
 
-.h1 + p {
+.h2 + p {
   margin-top: 28px;
 
   @media (max-width: 1024px) {
@@ -168,7 +173,7 @@ p + .h3,
 
 }
 
-.h2 + p {
+.h3 + p {
   margin-top: 22px;
 
   @media (max-width: 700px) {
@@ -227,9 +232,9 @@ p {
 }
 
 
-// .h3 + .textlist,
-// .h3 + .textlist,
-.h3 + .textlist {
+// .h4 + .textlist,
+// .h4 + .textlist,
+.h4 + .textlist {
   margin-top: 8px;
 }
 
@@ -262,16 +267,16 @@ p {
 
 }
 
-h1 {
-  @extend .h1;
-}
-
 h2 {
   @extend .h2;
 }
 
 h3 {
   @extend .h3;
+}
+
+h4 {
+  @extend .h4;
 }
 
 blockquote,
@@ -311,7 +316,9 @@ hr {
   transition: all 200ms ease-in-out;
 
   &:hover {
-    background-position: 5px center;
+    background-position: 2px center;
+    opacity: 0.6;
+    transform: translateX(5px);
   }
 
   &.white {
@@ -350,13 +357,28 @@ hr {
 
   &:hover {
     color: $darkBlue;
+    transform: translateX(4px);
 
     &:before {
       background-color: $darkBlue;
-      transform: translateX(3px);
+      transform: translateX(2px);
     }
   }
 
+}
+
+.white {
+  .buttonlink {
+    &:hover {
+      color: $white;
+      transform: translateX(4px);
+
+      &:before {
+        transform: translateX(2px);
+        background: $white url('images/buttonlink-arrow-orange.svg') 55% center no-repeat;
+      }
+    }
+  }
 }
 
 .ctaLink {

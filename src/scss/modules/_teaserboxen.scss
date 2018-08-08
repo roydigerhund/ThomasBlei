@@ -12,7 +12,7 @@
       flex-flow: row nowrap;
       overflow-x: auto;
 
-      @media (max-width: 1200px) {
+      @media (max-width: 1400px) {
         overflow-x: scroll;
         -webkit-overflow-scrolling: touch;
       }
@@ -20,7 +20,7 @@
       .box {
         width: 33.33%;
 
-        @media (max-width: 1200px) {
+        @media (max-width: 1400px) {
           flex: 0 0 auto;
           width: 44%;
         }
@@ -44,7 +44,7 @@
     justify-content: space-between;
     align-items: flex-end;
     width: calc(100% - 160px);
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     box-sizing: content-box;
     margin-bottom: 48px;
@@ -59,11 +59,11 @@
     }
 
     .headline {
-      @extend .h1;
+      @extend .h2;
     }
 
     .subline {
-      @extend .h3;
+      @extend .h4;
 
       @media (max-width: 700px) {
         display: none;
@@ -94,9 +94,14 @@
       position: relative;
       float: left;
       width: 50%;
-      height: 340px;
+      height: 380px;
       overflow: hidden;
       transition: opacity 300ms ease-in-out;
+
+      @media (max-width: 1400px) {
+        height: 340px;
+      }
+
 
       @media (max-width: 700px) {
         width: 100%;
@@ -141,12 +146,12 @@
       }
 
       .overline {
-        @extend .h3;
+        @extend .h4;
         color: $darkBlue;
       }
 
       .headline {
-        @extend .h1;
+        @extend .h2;
         font-weight: 700;
       }
 

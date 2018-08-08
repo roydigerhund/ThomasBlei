@@ -1,0 +1,79 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 30. May 2018 16:08
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.38
+WORDPRESS:	4.9.6
+PHP INFO:	7.2.1 | SAPI: apache2handler
+SERVER:		Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.1 mod_ssl/2.2.34 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 18MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported 
+TABLES: total:13 | filtered:0 | create:13 
+FILTERED: [] 
+SQL CREATED: 20180530_thomasblei_64e754cf2371fc623744180530160813_database.sql 
+SQL FILE SIZE: 5.88MB (6168793) 
+SQL FILE TIME: 2018-05-30 16:08:27 
+SQL RUNTIME: 11.17 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /Users/david/Documents/Seide&Witz/Thomas_Blei/04_web/06_github/ThomasBlei/wordpress 
+ARCHIVE FILE: 20180530_thomasblei_64e754cf2371fc623744180530160813_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	52.24MB 
+STATS:	Dirs 309 | Files 2,889 
+SQL ADDED: 20180530_thomasblei_64e754cf2371fc623744180530160813_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3198
+    [filename] => /Users/david/Documents/Seide&Witz/Thomas_Blei/04_web/06_github/ThomasBlei/wordpress/wp-snapshots/tmp/20180530_thomasblei_64e754cf2371fc623744180530160813_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 19.96MB 
+ARCHIVE RUNTIME: 5.89 sec. 
+MEMORY STACK: 20MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+PACK SIZE:  
+Template parsed with new data 
+Complete [/Users/david/Documents/Seide&Witz/Thomas_Blei/04_web/06_github/ThomasBlei/wordpress/wp-snapshots/tmp/20180530_thomasblei_64e754cf2371fc623744180530160813_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 5.88MB 
+Installer File: 445.92KB 
+Archive File: 19.96MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 17.80 sec.
+PEAK PHP MEMORY USED: 22MB
+DONE PROCESSING => 20180530_thomasblei 30. May 2018 16:08
+ 

@@ -10,9 +10,9 @@
         <?php the_sub_field('overline'); ?>
       </div>
 
-      <div class="headline <?php the_sub_field('headline_farbe'); ?>">
+      <h1 class="headline <?php the_sub_field('headline_farbe'); ?>">
         <?php the_sub_field('headline'); ?>
-      </div>
+      </h1>
 
       <?php if (($link = get_sub_field('link')) && get_sub_field('hoehe') == 'gross'): ?>
         <a class="link <?php the_sub_field('headline_farbe'); ?>" href="<?php echo $link['url']; ?>" title="<?php echo $link['title']; ?>" target="<?php echo $link['target']; ?>">

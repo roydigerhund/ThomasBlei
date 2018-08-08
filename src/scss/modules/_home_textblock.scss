@@ -1,72 +1,72 @@
 .home_textblock {
   width: calc(100% - 160px);
-  max-width: 1200px;
+  max-width: 1400px;
   box-sizing: content-box;
-  margin: 128px auto;
-  
+  margin: 160px auto;
+
   @media (max-width: 1024px) {
-    margin: 96px auto;
+    margin: 90px auto;
   }
-  
+
   @media (max-width: 700px) {
     margin: 60px auto 70px auto;
     width: calc(100% - 40px);
   }
-  
+
   .title {
     @extend .smallTitle;
     margin-bottom: 14px;
   }
-  
+
   .text {
     float: left;
-    width: calc(100% - 540px);
-    
+    width: 50%;
+
     @media (max-width: 1024px) {
       width: 100%;
       float: none;
       max-width: 600px;
     }
-    
+
     &.tablet,
     &.tablet .second {
       display: none;
-      
+
       @media (max-width: 1024px) {
         display: block;
       }
-      
+
       @media (max-width: 700px) {
         display: none;
       }
-                
+
     }
-    
+
     .desktop {
-      
+
       @media (max-width: 1024px) {
         display: none;
       }
-      
+
     }
-    
+
     .second {
       margin-top: 80px;
-      margin-bottom: 40px;    
-      
+      margin-bottom: 40px;
+
       @media (max-width: 1024px) {
         margin-top: 70px;
       }
-        
+
     }
-    
+
   }
-  
+
   .boxen {
     float: left;
-    width: 540px;
+    width: 50%;
     padding-left: 40px;
-    
+
     @media (max-width: 1024px) {
       display: flex;
       width: 100%;
@@ -74,82 +74,82 @@
       padding: 0;
       margin-top: 60px;
     }
-    
+
     @media (max-width: 700px) {
       display: none;
     }
-    
+
     .box {
       display: flex;
       margin-bottom: 72px;
-      
+
       @media (max-width: 1024px) {
         flex: 1 1 33.33%;
         display: block;
         margin-bottom: 0;
         margin-right: 30px;
-        
+
         &:last-child {
           margin-right: 0;
         }
-        
+
       }
-      
+
       .image {
         flex: 1 1 auto;
         padding-right: 24px;
-        
+
         @media (max-width: 1024px) {
           padding: 0;
           margin-bottom: 36px;
-          height: 110px;         
+          height: 110px;
           display: flex;
           align-items: flex-end;
         }
-        
+
         img {
           display: block;
           max-width: 100%;
           height: auto;
           margin: 0 auto;
-          
+
           @media (max-width: 1024px) {
             margin: 0;
           }
-          
+
         }
-        
+
       }
-      
+
       .content {
-        flex: 0 0 240px;
+        flex: 0 0 50%;
       }
-      
+
       p {
         margin-top: 10px;
-        
+
         @media (max-width: 1024px) {
           margin-top: 8px;
         }
       }
-      
+
     }
-    
+
   }
-  
+
   .link {
     @extend .buttonlink;
   }
-  
+
   .mobileLink {
     @extend .textlink;
     display: none;
     margin-top: 30px;
-    
+
     @media (max-width: 700px) {
       display: inline-block;
     }
-    
+
   }
-  
+
 }

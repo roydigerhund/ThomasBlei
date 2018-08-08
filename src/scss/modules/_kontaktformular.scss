@@ -1,15 +1,15 @@
 .kontaktformular {
   position: relative;
   margin: 120px auto 100px auto;
-  
+
   @media (max-width: 850px) {
     margin: 60px auto;
   }
-  
+
   @media (max-width: 700px) {
     margin: 40px auto;
   }
-  
+
   .content {
     @extend .clearfix;
     display: flex;
@@ -17,148 +17,167 @@
     position: relative;
     z-index: 2;
     width: calc(100% - 160px);
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-    
+
     @media (max-width: 850px) {
       display: block;
     }
-    
+
     @media (max-width: 700px) {
       width: calc(100% - 40px);
     }
-    
-    h3 {
+
+    h4 {
       color: $darkBlue;
       margin-bottom: 10px;
       margin-top: 50px;
-      
+
       @media (max-width: 850px) {
         margin-top: 40px;
       }
-      
+
       @media (max-width: 700px) {
         margin-top: 30px;
       }
-      
+
       &.address {
         margin-top: 80px;
-        
+
         @media (max-width: 850px) {
           margin-top: 60px;
         }
-        
+
         @media (max-width: 700px) {
           margin-top: 40px;
         }
-        
+
       }
-      
+
       &:first-child {
         margin-top: 0;
       }
-      
+
     }
-    
-    h2 {
-      
+
+    h3 {
+
       a {
         color: $darkBlue;
         text-decoration: none;
+        position: relative;
+        display:inline-flex!important;
+        &:after {
+          content: '';
+          position: absolute;
+          left:50px;
+          right:-5px;;
+          bottom:-2px;
+          height: 4px;
+          background: $darkBlue;
+          transform: scaleX(0);
+          transform-origin: 0;
+          transition: all 200ms ease-in-out;
+        }
+        &:hover {
+          &:after {
+            transform: scaleX(1);
+          }
+        }
       }
-      
+
       span {
         color: $orange;
       }
-      
+
       .email {
         margin-right: 16px;
-        
+
         @media (max-width: 1024px) {
           margin: 0 0 24px 0;
         }
-        
+
       }
-      
+
       .email, .phone {
         display: flex;
         align-items: center;
-        
+
         &:before {
           display: block;
           width: 35px;
           height: 25px;
           content: url('images/email.svg');
           margin-right: 18px;
-          
+
           @media (max-width: 1024px) {
             transform: scale(0.9);
             margin-right: 12px;
           }
-          
+
         }
-        
+
       }
-      
+
       .phone:before {
         width: 36px;
         height: 36px;
         content: url('images/phone.svg');
       }
-      
+
     }
-    
+
     form {
       margin-top: 50px;
     }
-    
+
   }
-  
+
   .left {
     flex: 0 0 auto;
     width: 42%;
     float: left;
     min-height: 1px;
     padding-right: 30px;
-    
+
     @media (max-width: 850px) {
       float: none;
       width: 100%;
       padding: 0;
       margin-bottom: 15px;
     }
-    
+
   }
-  
+
   .right {
     flex: 0 0 auto;
     width: 58%;
     float: left;
     min-height: 1px;
-    
+
     @media (max-width: 850px) {
       float: none;
       padding: 0;
       width: 100%;
       margin-top: 60px;
     }
-    
+
   }
 
 }
 
 form {
-  
+
   .line {
     @extend .clearfix;
-    margin-bottom: 40px; 
-    
+    margin-bottom: 40px;
+
     @media (max-width: 400px) {
       margin-bottom: 25px;
     }
 
   }
-  
+
   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: $darkBlue;
     opacity: 1;
@@ -175,7 +194,7 @@ form {
     color: $darkBlue;
     opacity: 1;
   }
-  
+
   input[type="text"],
   input[type="email"],
   input[type="tel"],
@@ -192,33 +211,33 @@ form {
     padding: 0 20px;
     box-shadow: inset 0 5px 6px rgba(0,0,0,0.1), inset 0 0 2px rgba(0,0,0,0.2);
   }
-  
+
   .wpcf7-checkbox {
-    
+
     .wpcf7-list-item {
       margin: 0;
       width: 50%;
       white-space: nowrap;
-      
+
       @media (max-width: 400px) {
         width: 100%;
       }
-      
+
     }
-    
+
     input {
       font-size: 20px;
       margin: 0 8px 0 0;
     }
-    
+
     label {
-      @extend .h3;
+      @extend .h4;
       line-height: 35px;
       color: $darkBlue;
     }
-    
+
   }
-  
+
   textarea {
     @extend .paragraph;
     font-weight: 400;
@@ -231,7 +250,7 @@ form {
     padding: 15px 20px;
     box-shadow: inset 0 5px 6px rgba(0,0,0,0.1), inset 0 0 2px rgba(0,0,0,0.2);
   }
-  
+
   input[type="submit"] {
     font-size: 13px;
     font-weight: 500;
@@ -247,16 +266,16 @@ form {
     box-shadow: 0 5px 6px rgba(0,0,0,0.1);
     cursor: pointer;
   }
-  
+
   .wpcf7-not-valid-tip {
     @extend .paragraph.small;
     margin-top: 10px;
     margin-left: 20px;
   }
-  
+
   .wpcf7-response-output {
     @extend .paragraph;
     padding: 15px 20px;
   }
-  
+
 }

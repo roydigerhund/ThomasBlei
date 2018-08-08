@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="71.3px" height="107.7px" viewBox="0 0 71.3 107.7" style="enable-background:new 0 0 71.3 107.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	
+		.st1{clip-path:url(#SVGID_2_);fill:none;stroke:#FFFFFF;stroke-width:0.713;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:0.713;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+		.st3{clip-path:url(#SVGID_4_);fill:none;stroke:#FFFFFF;stroke-width:0.713;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M13.4,85.4l-2.5,7.9h5L13.4,85.4L13.4,85.4z M11.1,81.6h4.7l6.9,19.2h-4.3l-1.5-4.4h-7l-1.5,4.4H4.3L11.1,81.6
+		z M42.5,96.9l4-15.3h4.1L45,100.8h-5.4l-3.8-15.3h-0.1L32,100.8h-5.5L21,81.6h4.4l3.9,15.3h0.1L33,81.6h5.7L42.5,96.9L42.5,96.9z
+		 M52.2,81.6h4.2v19.2h-4.2V81.6z M27.1,48.4l8.6-8.6l8.6,8.6l0,0v17L35.7,74V57l5.3-5.3L35.7,57L27.1,48.4z M9.5,31.4l8.6-8.6
+		l8.6,8.6l0,0v17L18.1,57V40l3.4-3.4L18.1,40L9.5,31.4z M35.4,14.2L44,5.6l8.6,8.6l0,0v17L44,39.8v-17l5.4-5.4L44,22.8L35.4,14.2z
+		 M0.8,1.1v105.4h60.8V56.8v-17v0L53,31.2l8.6-8.6V1.1H0.8z"/>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="0.8" y="1.1" width="69.7" height="105.4"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<polygon class="st1" points="61.6,56.8 61.6,39.8 70.2,31.2 70.2,48.2 		"/>
+	</g>
+	<polygon class="st2" points="44,39.8 44,22.8 52.6,14.2 52.6,31.2 	"/>
+	<polygon class="st2" points="35.7,74 35.7,57 44.3,48.4 44.3,65.4 	"/>
+	<polygon class="st2" points="18.1,57 18.1,40 26.7,31.4 26.7,48.4 	"/>
+	<g>
+		<defs>
+			<rect id="SVGID_3_" x="0.8" y="1.1" width="69.7" height="105.4"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		
+			<rect x="55.5" y="25.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -4.0214 52.6746)" class="st3" width="12.2" height="12.2"/>
+	</g>
+	<rect x="37.9" y="8.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 2.8535 35.2793)" class="st2" width="12.2" height="12.2"/>
+	
+		<rect x="29.6" y="42.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -23.7651 39.3886)" class="st2" width="12.2" height="12.2"/>
+	<rect x="12" y="25.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -16.889 21.9955)" class="st2" width="12.2" height="12.2"/>
+</g>
+</svg>

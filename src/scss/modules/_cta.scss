@@ -2,42 +2,42 @@
   display: flex;
   align-items: center;
   width: calc(100% - 160px);
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 110px auto 130px auto;
-  
+
   @media (max-width: 800px) {
     display: block;
   }
-  
+
   @media (max-width: 700px) {
     width: calc(100% - 40px);
     margin: 50px auto;
   }
-  
+
   .text{
-    @extend .h2;
+    @extend .h3;
     margin-right: 40px;
     max-width: 600px;
-    
+
     @media (max-width: 800px) {
       margin: 0 0 20px 0;
     }
-    
+
   }
-  
+
   .link {
     flex: 0 0 auto;
     @extend .ctaLink;
-    
+
     @media (max-width: 800px) {
       padding-left: 0;
-      
+
       &:after {
         display: none;
       }
-      
+
     }
-    
+
   }
-  
+
 }

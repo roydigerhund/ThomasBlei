@@ -3,7 +3,7 @@
   <div class="image">
     <div class="imageWrapper">
       <img src="<?php the_sub_field('bild'); ?>" alt="<?php the_sub_field('headline'); ?>">
-      
+
       <?php if (get_sub_field('infotext')): ?>
         <div class="infoicon" style="right: <?php the_sub_field('info_pos_x'); ?>%; top: <?php the_sub_field('info_pos_y'); ?>%;">
           <svg width="8px" height="22px" viewBox="0 0 8 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -20,12 +20,12 @@
         </div>
       <?php endif; ?>
     </div>
-    
+
   </div>
-  
-  <div class="text">
+
+  <h2 class="text">
     <b><?php the_sub_field('headline'); ?></b>
     <?php the_sub_field('subline'); ?>
-  </div>
+  </h2>
 
 </div>

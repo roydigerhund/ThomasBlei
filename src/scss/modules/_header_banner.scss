@@ -48,6 +48,24 @@
 
     }
 
+    &.mini {
+      height: 400px;
+      background: #f0f3f5;
+
+      @media (max-width: 1024px) {
+        height: 300px;
+      }
+
+      @media (max-width: 700px) {
+        display: none;
+      }
+
+      @media (max-width: 550px) {
+        display: none;
+      }
+
+    }
+
   }
 
   .contentWrapper {
@@ -70,7 +88,7 @@
   .content {
     flex: 1 1 auto;
     position: relative;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 80px;
     box-sizing: content-box;
@@ -80,7 +98,7 @@
     }
 
     .overline {
-      @extend .h3;
+      @extend .h4;
       margin-bottom: 4px;
 
       @media (max-width: 700px) {
@@ -90,8 +108,8 @@
     }
 
     .headline {
-      font-size: 50px;
-      line-height: 60px;
+      font-size: 45px;
+      line-height: 55px;
       color: $white;
       font-weight: 700;
       letter-spacing: 0.03em;
@@ -135,14 +153,14 @@
     @extend .smallTitle;
     background: $darkBlue;
     position: absolute;
-    left: calc(50% - 600px);
+    left: calc(50% - 700px);
     bottom: 0;
 
     &:before, &:after {
       background: $darkBlue;
     }
 
-    @media (max-width: 1360px) {
+    @media (max-width: 1560px) {
       left: 80px;
     }
 

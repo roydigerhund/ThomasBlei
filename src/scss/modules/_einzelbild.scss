@@ -1,0 +1,4 @@
+.einzelbild{max-width: 1400px;width:calc(100% - 160px);margin:auto;}
+.einzelbild img{width: 100%;}
+@media (max-width: 700px) {.einzelbild{width:calc(100% - 40px)}}
+.teaserboxen .text .subline {display:none}
