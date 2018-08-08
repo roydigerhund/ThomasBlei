@@ -1,3 +1,38 @@
+<IfModule mod_headers.c>
+ Header set Strict-Transport-Security: max-age=31536000
+</IfModule>
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www.replaceThis.de$
+RewriteRule (.*) https://www.replaceThis.de%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/gif "access plus 7 days"
+ExpiresByType image/ico "access plus 7 days"
+ExpiresByType image/jpeg "access plus 7 days"
+ExpiresByType image/jpg "access plus 7 days"
+ExpiresByType image/png "access plus 7 days"
+ExpiresByType text/css "access plus 7 days"
+ExpiresByType text/javascript "access plus 7 days"
+ExpiresByType application/x-javascript "access plus 7 days"
+ExpiresByType application/javascript "access plus 7 days"
+</IfModule>
+
+
+<ifModule mod_deflate.c>
+  <filesMatch "\.(css|js|x?html?|php)$">
+    SetOutputFilter DEFLATE
+  </filesMatch>
+</ifModule>
+
+# Hide author pages
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/wp-admin [NC]
+RewriteCond %{QUERY_STRING} author=\d
+RewriteRule ^ /? [L,R=301]
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
