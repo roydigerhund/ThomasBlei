@@ -3,22 +3,25 @@
 </IfModule>
 
 RewriteEngine On
-RewriteCond %{HTTP_HOST} !^www.replaceThis.de$
-RewriteRule (.*) https://www.replaceThis.de%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTP_HOST} !^blei-immobilien.de$
+RewriteRule (.*) https://blei-immobilien.de%{REQUEST_URI} [R=301,L]
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
 <IfModule mod_expires.c>
 ExpiresActive On
-ExpiresByType image/gif "access plus 7 days"
-ExpiresByType image/ico "access plus 7 days"
-ExpiresByType image/jpeg "access plus 7 days"
-ExpiresByType image/jpg "access plus 7 days"
-ExpiresByType image/png "access plus 7 days"
-ExpiresByType text/css "access plus 7 days"
-ExpiresByType text/javascript "access plus 7 days"
-ExpiresByType application/x-javascript "access plus 7 days"
-ExpiresByType application/javascript "access plus 7 days"
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/ico "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType image/jpg "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/svg "access plus 1 month"
+ExpiresByType image/svg+xml "access plus 1 month"
+ExpiresByType image/xml "access plus 1 month"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType text/javascript "access plus 1 month"
+ExpiresByType application/x-javascript "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 month"
 </IfModule>
 
 

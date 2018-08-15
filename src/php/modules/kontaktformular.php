@@ -5,7 +5,7 @@
     <div class="left">
 
       <h4>Telefon</h4>
-      <h3><a class="phone" href="tel+49 (0)7520 94499-70" title="Anrufen">+49 (0)7520 94499-70</a></h3>
+      <h3><a class="phone" href="tel:+4975209449970" title="Anrufen">+49 (0)7520 94499-70</a></h3>
 
       <h4>E-Mail</h4>
       <h3><a class="email" href="mailto:info@blei-immobilien.de" title="E-Mail schreiben">info@blei-immobilien.de</a></h3>

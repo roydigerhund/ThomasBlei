@@ -4,14 +4,14 @@
   require_once('includes/breadcrumb.php');
   
   // Custom Options Page
-  if( function_exists('acf_add_options_page') ) {
-    acf_add_options_page(array(
-      'page_title' => 'Optionen',
-      'post_id' => 'options',
-      'update_button'		=> __('Aktualisieren', 'acf'),
-      'updated_message'	=> __("Optionen aktualisiert", 'acf'),  
-    ));    
-  }
+  // if( function_exists('acf_add_options_page') ) {
+  //   acf_add_options_page(array(
+  //     'page_title' => 'Optionen',
+  //     'post_id' => 'options',
+  //     'update_button'		=> __('Aktualisieren', 'acf'),
+  //     'updated_message'	=> __("Optionen aktualisiert", 'acf'),  
+  //   ));    
+  // }
 
   //MENUS
   function register_my_menus() {
