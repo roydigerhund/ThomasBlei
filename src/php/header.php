@@ -9,6 +9,14 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Droid+Serif:400" rel="stylesheet">
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>?v=1.16<?php echo rand(0,999999); ?>" type="text/css" media="screen">
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-59982420-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-59982420-7', { 'anonymize_ip': true });
+</script>
 </head>
 
 <body>
