@@ -26,7 +26,7 @@ ExpiresByType application/javascript "access plus 1 month"
 
 
 <ifModule mod_deflate.c>
-  <filesMatch "\.(css|js|x?html?|php)$">
+  <filesMatch "\.(css|js|svg|x?html?|php)$">
     SetOutputFilter DEFLATE
   </filesMatch>
 </ifModule>
